@@ -1,0 +1,33 @@
+{%extends "layout.html"%}
+{%block content%}
+
+
+    <h1><a href="/">Stocks</a><i class="angle double left icon"></i>
+    {{ stock.name }}
+    ({{ stock.symbol }})
+    </h1>
+    <table class="ui selectable inverted table">
+        <thead>
+            <tr>
+            <th>Date</th>
+            <th>Open</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Close</th>
+            <th>Volume</th>
+            </tr>
+        </thead>
+        <tbody>
+        {%for bar in bars%}
+        <tr>
+            <td>{{ bar.date }}</td>
+            <td>{{ bar.open }}</td>
+            <td>{{ bar.high }}</td>
+            <td>{{ bar.low }}</td>
+            <td>{{ bar.close }}</td>
+            <td>{{ bar.volume }}</td>
+        </tr>
+        {%endfor%}
+        </tbody>    
+
+{%endblock%}
