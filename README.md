@@ -7,5 +7,4 @@ Quant intellect is a full stack trading app built on python, SQL for the databas
 
 
 
-- side note: 1. You can visit sqlitebrowser.org, which makes it easy to browse our database for free.
 
