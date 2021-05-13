@@ -8,4 +8,4 @@ Quant intellect is a full stack trading app built on python, SQL for the databas
 
 
 - side note: 1. You can visit sqlitebrowser.org, which makes it easy to browse our database for free.
-- side note: 2. You can get more complete data if you get access to Polygon by but is not free unless you put money into the Alpaca brokerage account
+
