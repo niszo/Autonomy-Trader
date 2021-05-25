@@ -28,7 +28,7 @@ cursor.execute("""
 stocks = cursor.fetchall()
 symbols = [stock['symbol'] for stock in stocks] 
 
-current_date = "2021-05-18" #date.today().isoformat() 
+current_date = date.today().isoformat() 
 NY = "America/New_York"
 
 start_minute_bar = pd.Timestamp(f"{current_date} 09:30:00-04:00", tz=NY).isoformat()
