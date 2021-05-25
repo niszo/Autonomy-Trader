@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>stocks</title>
+        <title>Dynamic Trader</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
         <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     </head>
@@ -31,21 +31,20 @@
                         <td>{{ stock.symbol }}</td>
                         <td><a href="/stock/{{ stock.symbol }}">{{ stock.name }}</a></td>
                     </tr>
-                    {%endfor%}
+                    {% endfor %}
                 </tbody>
               </table>
         </div>
         
     <table>
-    {%for stock in stocks%} 
+    {% for stock in stocks %} 
     <tr>
         <td>{{ stock.id }}</td>
         <td>{{ stock.symbol }}</td>
         <td>{{ stock.name }}</td>
     </tr>
-    {%endfor%}
+    {% endfor %}
     </table>
     
     </body>
 </html>
-
