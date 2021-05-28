@@ -4,6 +4,7 @@ Trade Hacker is a full stack trading app built on python, postgreSQL and timesca
 Autonomy Trader is made to automate a day trader’s trading if they don’t know how to program their self by the ability to select pre-programmed strategies for stocks. It obtains graphical visualization, updated stocks, prices, order histories, and push notifications to keep the trader up to date with the trades the program places. 
 
 I currently have it hosted locally. If it is still running on my machine then you can access it by https://328a3ebb6296.ngrok.io/. 
+If not, use the command "uvicorn main:app --reload" to access it locally. 
 
 
 
